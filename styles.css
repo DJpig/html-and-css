@@ -1,0 +1,50 @@
+
+html {
+  background-color: lightblue
+}
+
+
+p {
+  text-align: center;
+  font-size: 24px;
+  color: darkblue;
+  display: table;
+}
+
+
+p.heading {
+  color: darkred;
+
+}
+
+.first {
+  background-color: magenta
+}
+.sec{
+  background-color: orange
+}
+.third{
+  background-color: yellow
+}
+
+.fourth{
+  background-color: lime
+}
+div {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+p.name {
+  float: none;
+  text-decoration: underline;
+  font-size: 50px;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+  div {
+    width: 100%;
+  }

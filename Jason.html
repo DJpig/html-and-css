@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About Jason</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <p class="name"> Jason </p>
+    <div class="first">
+      <p class="heading"><b>Fun facts</b></p>
+      <p class="details"> This is nice </p>
+      </div>
+      <div class="sec">
+        <p class="heading"><b>Weakness</b> </p>
+        <p class="details"> This is nice </p>
+      </div>
+  <div class="third">
+    <p class="heading"><b>About </b> </p>
+    <p class="details"> uhgiusdhuie </p>
+  </div>
+  <div class="fourth">
+    <p class="heading"><b>Strenght</b> </p>
+    <p class="details">Nulla id mi eu neque vulputate venenatis sed et ipsum. Quisque placerat odio at consectetur vehicula. Nullam quis leo ac est commodo gravida. Cras ultrices, tellus ac ornare viverra, risus leo tristique eros, aliquet tempus ex lorem ut ante. Donec luctus aliquam elementum. Fusce eu est sagittis, hendrerit leo vel, lobortis augue. Nunc interdum ornare tortor consectetur tempus. Cras laoreet molestie nulla, tristique interdum erat semper at. Ut nec vestibulum purus. Suspendisse accumsan turpis et enim semper, vitae commodo orci dictum. Donec at purus augue. Proin pharetra finibus ante et consequat. Etiam faucibus fermentum massa. Cras vehicula commodo finibus. Sed vel elementum urna. Praesent ultricies condimentum tristique.
+
+ </p>
+ <button type="button" name="button" onclick="changecolor()">change text colors randomly</button>
+  </div>
+  <script>
+    function changecolor() {
+      var r = Math.floor(Math.random() * 256);
+      var g = Math.floor(Math.random() * 256);
+      var b = Math.floor(Math.random() * 256);
+      document.getElementByTagName("div").style.backgroundColorrgb = "rgb(" + r + "," + g + "," + b + ");"
+    }
+  </script>
+  </body>
+</html>
